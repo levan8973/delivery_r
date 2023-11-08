@@ -1,14 +1,13 @@
 import React, { useState } from "react";
-
-
+import "./index.css"
 
 const SelectOption = ()=>{
 
-    const  [data,setData] = useState(undefined)
+    const  [city,setSity] = useState(null)
     const options = ['Москва','Новосибирск','Тюмень']
 
     const onOptionHandler = (event) => {
-    setData(event.target.value)
+    setSity(event.target.value)
     }
 
     return (

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Nunito:wght@300;600;700&display=swap");
+
+header {
+  background-color: #006790;
+  display: flex;
+  padding: 20px 210px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-right: 60px;
+}
+.header__btn-phone {
+  max-width: 205px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background: #ffd200;
+  padding: 18px 20px 17px 20px;
+  border: none;
+  margin-right: 30px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header__phone-link {
+  display: flex;
+  flex-wrap: nowrap;
+  text-decoration: none;
+  color: #000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header__search-box {
+  outline: none;
+  background: none;
+  max-width: 528px;
+  width: 100%;
+  color: #fff;
+  padding: 18px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-right: 39px;
+}
+.header__search-box::placeholder {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.header__calc {
+  border-radius: 12px;
+  background: #ffd200;
+  padding: 18px 20px;
+  border: none;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10.43px;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header__login-btn {
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background: none;
+  padding: 18px 20px;
+  color: #fff;
+  display: flex;
+  gap: 10.21px;
+  align-items: center;
+  color: #fff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1900px) {
+  header {
+    padding: 20px 20px;
+    gap: 15px;
+  }
+}

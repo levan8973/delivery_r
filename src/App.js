@@ -1,12 +1,16 @@
 import React from "react";
-import Header from "./Header";
-import ListLink from "./List.Link";
+import Header from "./pages/Header/Header";
 import "./index.css";
+import Navigation from "./Components/Navigation/Navigation";
+import MainHeader from "./pages/MainHeader/MainHeader";
+import TabContent from "./Components/Tabcomponent/TabContent";
 function App() {
   return (
     <div className="app">
       <Header />
-      <ListLink />
+      <Navigation />
+      <MainHeader />
+      <TabContent />
     </div>
   );
 }

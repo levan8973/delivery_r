@@ -1,0 +1,34 @@
+.main__header {
+  background: #006790;
+  background-image: url(../../img/carBackgraund.png);
+  padding: 61px 0 141px 210px;
+  display: flex;
+  justify-content: space-between;
+  background-position: bottom;
+  display: flex;
+  gap: 50px;
+}
+.texts {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.main__heading {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  max-width: 604px;
+}
+.main__text {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  max-width: 467px;
+}

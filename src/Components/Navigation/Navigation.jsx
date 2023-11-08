@@ -1,7 +1,7 @@
 import React from "react";
 import "./index.css"
 
-const ListLink = () =>{
+const Navigation = () =>{
     const links = [
         'Услуги',
         'Международные перевозки',
@@ -15,12 +15,12 @@ const ListLink = () =>{
         return <li><a href="">{link}</a></li>
     })
     return (
-        <div className="header__nav">
+        <nav className="header__nav">
            <ul className="header__nav-items">{listItems}</ul> 
-        </div>
+        </nav>
         
         )
 
 }
 
-export default ListLink;
+export default Navigation;

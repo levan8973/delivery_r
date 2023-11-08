@@ -1,0 +1,21 @@
+.header__select {
+  margin-right: 8px;
+  border-radius: 12px;
+  padding: 18px 20px;
+  color: #007eb0;
+  border: 1px solid #d6eaff;
+  background: #f3f9ff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.header__select option {
+  color: #000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
