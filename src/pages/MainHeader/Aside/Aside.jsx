@@ -10,15 +10,13 @@ const Aside = () => {
         <button className="aside__btn">
           <Calculator />
         </button>
-        <span className="aside__text">Расчитать</span>
-        <span className="aside__text">Стоимость</span>
+        <p className="aside__text">Расчитать Стоимость</p>
       </div>
       <div className="aside__block">
         <button className="aside__btn">
           <Girl />
         </button>
-        <span className="aside__text">Личный</span>
-        <span className="aside__text">Менеджер</span>
+        <p className="aside__text">Личный Менеджер</p>
       </div>
     </aside>
   );

@@ -1,10 +1,11 @@
 import React from "react";
+import "./index.css";
 import { ReactComponent as Logo } from "../../icon/Logo.svg";
-import { ReactComponent as Phone } from "../../icon/Phone.svg";
 import { ReactComponent as Calc } from "../../icon/Calc.svg";
 import { ReactComponent as Man } from "../../icon/Man.svg";
-import "./index.css";
 import SelectOption from "../../Components/SelectOption/SelectOption.jsx";
+import Input from "../../Components/Input/Input.jsx";
+import PhoneLink from "../../Components/PhoneLink/PhoneLink.jsx";
 
 const Header = () => {
   return (
@@ -12,13 +13,10 @@ const Header = () => {
       <a href="" className="logo">
         <Logo />
       </a>
-      <button className="header__btn-phone">
-        <Phone />
-        <a className="header__phone-link" href="" tel="+71234567890">
-          7 123 456 78 90
-        </a>
-      </button>
-      <input className="header__search-box" type="text" placeholder="поиск" />
+      <div className="header__btn-phone">
+        <PhoneLink />
+      </div>
+      <Input />
       <SelectOption />
       <button className="header__calc">
         <Calc />

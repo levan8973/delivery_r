@@ -16,7 +16,7 @@ header {
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: center;
   border-radius: 12px;
   background: #ffd200;
   padding: 18px 20px 17px 20px;
@@ -28,17 +28,7 @@ header {
   font-weight: 700;
   line-height: normal;
 }
-.header__phone-link {
-  display: flex;
-  flex-wrap: nowrap;
-  text-decoration: none;
-  color: #000;
-  font-family: Nunito;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
+
 .header__search-box {
   outline: none;
   background: none;

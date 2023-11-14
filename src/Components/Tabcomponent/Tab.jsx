@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Tab = ({ tabs }) => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(null);
 
   const handleTabClick = (index) => {
     setActiveTab(index);
@@ -9,10 +9,17 @@ const Tab = ({ tabs }) => {
 
   return (
     <div className="tab__container">
-      <ul className="tab">
+      <ul className="tab__list-titles ">
         {tabs.map((tab, index) => (
-          <li key={index} onClick={() => handleTabClick(index)}>
-            {tab.title}
+          <li
+            key={index}
+            onClick={() => handleTabClick(index)}
+            style={{
+              background: activeTab === index ? "#028BC1" : "none",
+            }}>
+            <span style={{ color: activeTab === index ? "#FFF" : "#006790" }}>
+              {tab.title}
+            </span>
           </li>
         ))}
       </ul>

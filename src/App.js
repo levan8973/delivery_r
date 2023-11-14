@@ -3,14 +3,14 @@ import Header from "./pages/Header/Header";
 import "./index.css";
 import Navigation from "./Components/Navigation/Navigation";
 import MainHeader from "./pages/MainHeader/MainHeader";
-import TabContent from "./Components/Tabcomponent/TabContent";
+import Tabs from "./Components/Tabcomponent/Tabs";
 function App() {
   return (
     <div className="app">
       <Header />
       <Navigation />
       <MainHeader />
-      <TabContent />
+      <Tabs />
     </div>
   );
 }

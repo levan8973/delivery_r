@@ -1,5 +1,37 @@
+.tab__list-titles {
+  display: flex;
+  border-radius: 24px;
+  background: linear-gradient(0deg, #f3f9ff 0%, #f3f9ff 100%);
+  max-width: 1250px;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin: -25px;
+}
+.tab__list-titles li {
+  list-style-type: none;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #006790;
+  border-radius: 12px;
+  background: none;
+  border: none;
+  max-width: 320px;
+  width: 100%;
+  padding: 17px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 .tabs__contents {
   display: flex;
+  gap: 30px;
+  background: linear-gradient(0deg, #f3f9ff 0%, #f3f9ff 100%);
 }
 .contents span {
   color: #000;
@@ -9,12 +41,11 @@
   font-weight: 700;
   line-height: normal;
 }
-.contents button {
+.btn {
   border-radius: 12px;
   background: #ffd200;
   padding: 18px 90px;
   border: none;
-  width: 100%;
   color: #000;
   text-align: center;
   font-family: Nunito;
@@ -22,23 +53,37 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  cursor: pointer;
 }
 .contents__btn {
   display: flex;
+  gap: 10px;
+  align-items: center;
 }
 .contents__second-btn {
   background: none;
   border: none;
   padding: 0;
+  cursor: pointer;
+}
+.contents {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  max-width: 352px;
+  width: 100%;
+  padding: 30px 10px 10px 10px;
+  border-radius: 12px;
 }
 .tab__container {
   border-radius: 24px;
   background: linear-gradient(0deg, #f3f9ff 0%, #f3f9ff 100%);
-  max-width: 1390px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
 }
 .tab {
   display: flex;
@@ -50,4 +95,29 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.car-one {
+  max-width: 200px;
+  display: flex;
+  align-self: center;
+  padding-bottom: 64px;
+}
+.car-two {
+  padding-bottom: 70px;
+  max-width: 200px;
+  display: flex;
+  align-self: center;
+}
+.car-three {
+  max-width: 200px;
+  display: flex;
+  align-self: center;
+  padding-bottom: 64px;
+}
+.car-four {
+  padding-bottom: 90px;
+  max-width: 270px;
+  display: flex;
+  align-self: center;
 }

@@ -1,0 +1,13 @@
+.phone {
+  display: flex;
+  gap: 11px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

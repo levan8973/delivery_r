@@ -1,0 +1,20 @@
+.search {
+  outline: none;
+  background: none;
+  max-width: 528px;
+  width: 100%;
+  color: #fff;
+  padding: 18px 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-right: 39px;
+}
+
+.search::placeholder {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
