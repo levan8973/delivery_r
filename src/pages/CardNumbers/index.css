@@ -1,0 +1,36 @@
+.cardNumbers__item {
+  border-radius: 12px;
+  background: #f3f9ff;
+  padding: 10px 30px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 480px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.cardNumbers__title {
+  color: #000;
+  font-family: Nunito;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cardNumbers__text {
+  color: #667582;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cardNumbers__container {
+  max-width: 1500px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  max-height: 458px;
+}

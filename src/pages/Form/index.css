@@ -1,0 +1,71 @@
+.form__container {
+  background-image: url("../../img/FormBackground.png");
+  padding: 60px 0 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+.form__heading {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  max-width: 1070px;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1426px;
+  width: 100%;
+}
+.form__container-inputs {
+  display: flex;
+  gap: 30px;
+}
+
+.form__input {
+  border-radius: 12px;
+  background: #fff;
+  max-width: 480px;
+  border: none;
+  padding: 16px 21px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.checkbox {
+  border-radius: 6px;
+  background: #fff;
+}
+.checkbox__label {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.form__btn {
+  border-radius: 12px;
+  background: #ffd200;
+  border: none;
+  padding: 18px 22px;
+  color: #000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+.form__sending-data {
+  display: flex;
+  justify-content: space-between;
+}

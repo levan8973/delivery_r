@@ -1,0 +1,41 @@
+footer {
+  background: #000;
+}
+.footer__container {
+  display: flex;
+
+  justify-content: space-around;
+}
+.footer__heading {
+  color: #f3f9ff;
+  font-family: Nunito;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #f3f9ff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer__element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 20px;
+}

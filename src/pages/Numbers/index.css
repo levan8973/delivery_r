@@ -1,0 +1,62 @@
+.numbers {
+  background-image: url("../../img/carPhotoBackgraund.png");
+  background-repeat: no-repeat;
+  display: flex;
+  max-width: 1500px;
+  width: 100%;
+  padding: 90px 60px;
+  gap: 200px;
+}
+
+.numbers__container-text {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  max-width: 520px;
+  width: 100%;
+  margin: 0;
+}
+.numbers h2 {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+.numbers span {
+  color: #fff;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.numbers__container-six {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.numbers__container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.container-six__text {
+  max-width: 260px;
+  color: #fff;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 100%;
+  margin: 0;
+}
